@@ -1,11 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,latin-ext);
 body {
-  font-family: "Roboto","Open sans","Trebuchet MS",Helvetica,Arial,sans-serif;
-  max-width: 1546px;
+  font-family: "Roboto", "Open sans", "Trebuchet MS", Helvetica, Arial, sans-serif;
   margin: auto;
   font-size: 16px;
   line-height: 20px; }
+
+.all {
+  max-width: 1546px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.ft {
+  max-width: 1546px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .navb .container-fluid {
   max-width: 1546px; }
@@ -116,7 +125,8 @@ h2 {
   margin: 0 0 1px 0; }
 
 .wells:hover {
-  background-color: #c92220; }
+  background-color: #c92220;
+  cursor: pointer; }
 
 .wells31 {
   background-color: #777; }
@@ -225,5 +235,28 @@ ul.uln {
   @media (max-width: 728px) {
     .jo {
       margin: 10px 0 30px; } }
+
+.foot {
+  width: 100%;
+  background: #373737;
+  padding: 20px 0;
+  float: left; }
+  .foot a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px; }
+  .foot a:hover {
+    color: #ed9e3e; }
+
+.foot2 {
+  width: 100%;
+  background: #000;
+  padding: 10px 0;
+  float: left;
+  font-size: 13px;
+  color: #aeaaaa; }
+  .foot2 .col-md-12 {
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

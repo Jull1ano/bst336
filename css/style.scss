@@ -3,19 +3,31 @@
 
 $ros: #c92220;
 $ov: #841e5f;
-$mw:1546px;
+$mw: 1546px;
 
 body {
-  font-family:"Roboto","Open sans","Trebuchet MS",Helvetica,Arial,sans-serif;
-  max-width: $mw;
+  font-family: "Roboto", "Open sans", "Trebuchet MS", Helvetica, Arial, sans-serif;
   margin: auto;
   font-size: 16px;
   line-height: 20px;
 }
+
+.all {
+  max-width: $mw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ft {
+  max-width: $mw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .navb .container-fluid {
   max-width: $mw;
-
 }
+
 .theme-dropdown .dropdown-menu {
   position: static;
   display: block;
@@ -141,6 +153,7 @@ h2 {
 
 .wells:hover {
   background-color: $ros;
+  cursor: pointer;
 }
 
 .wells31 {
@@ -157,7 +170,7 @@ h2 {
 
 .wells img {
   float: right;
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 .rowp {
@@ -174,10 +187,12 @@ h2 {
   padding: 20px 5px 10px;
   margin: 0 0 1px 0;
 }
+
 .wellsProd:hover {
   background: #bdd7ee;
   cursor: pointer;
 }
+
 h3 {
   margin: 0px 0 15px;
   font-size: 24px;
@@ -190,71 +205,110 @@ h4 {
   font-size: 20px;
   font-weight: bold;
   line-height: 26px;
-  margin:  0 0 10px 0;
+  margin: 0 0 10px 0;
   padding: 0;
   float: left;
   width: 100%;
 }
+
 h5 {
   color: #555;
   font-size: 24px;
   font-weight: bold;
   line-height: 22px;
-  margin:  0 0 10px 0;
+  margin: 0 0 10px 0;
   padding: 0;
   float: left;
   width: 100%;
 }
+
 h6 {
   color: #333;
   font-size: 16px;
   font-weight: bold;
   line-height: 20px;
-  margin:  0 0 20px 0;
+  margin: 0 0 20px 0;
   padding: 0;
   float: left;
   width: 100%;
 }
+
 .dt
 .dtable {
-/*  display: table;
-  height:116px;*/
+  /*  display: table;
+    height:116px;*/
 }
+
 .wellsProd i {
   /*display: table-cell;
   vertical-align: middle;*/
   margin: 30px 0 0 10px;
 
 }
+
 a.josl {
   color: $ros;
   font-weight: 600;
   text-decoration: none;
-  margin:20px 0 0 0;
+  margin: 20px 0 0 0;
   float: left;
 }
+
 a.josl:hover {
   color: $ov;
 }
+
 a.josl i {
   margin: 3px 15px 0 0;
 }
+
 ul.uln {
   padding: 0;
   margin: 0;
 }
+
 .uln li {
   list-style: outside none none;
   padding: 0;
   margin: 0;
 }
+
 .uln li i {
-  margin:0 15px 0 0;
+  margin: 0 15px 0 0;
   color: $ov;
 }
+
 .jo {
-  margin:0 0 20px 0;
+  margin: 0 0 20px 0;
   @media (max-width: 728px) {
-    margin:10px 0 30px;
+    margin: 10px 0 30px;
   }
 }
+
+.foot {
+  width: 100%;
+  background: #373737;
+  padding: 20px 0;
+  float: left;
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  a:hover {
+    color: #ed9e3e;
+  }
+}
+
+.foot2 {
+  width: 100%;
+  background: #000;
+  padding: 10px 0;
+  float: left;
+  font-size:13px;
+  color: #aeaaaa;
+  .col-md-12 {
+    text-align: center;}
+}
+
