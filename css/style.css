@@ -144,6 +144,10 @@ h2 {
   padding: 20px 5px 10px;
   margin: 0 0 1px 0; }
 
+.wellsProd:hover {
+  background: #bdd7ee;
+  cursor: pointer; }
+
 h3 {
   margin: 0px 0 15px;
   font-size: 24px;
@@ -215,5 +219,11 @@ ul.uln {
 .uln li i {
   margin: 0 15px 0 0;
   color: #841e5f; }
+
+.jo {
+  margin: 0 0 20px 0; }
+  @media (max-width: 728px) {
+    .jo {
+      margin: 10px 0 30px; } }
 
 /*# sourceMappingURL=style.css.map */
