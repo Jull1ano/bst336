@@ -150,7 +150,7 @@ h2 {
   float: left;
   font-size: 15px;
   font-weight: normal;
-  min-height: 164px;
+  min-height: 140px;
   padding: 20px 5px 10px;
   margin: 0 0 1px 0; }
 
@@ -258,5 +258,8 @@ ul.uln {
   color: #aeaaaa; }
   .foot2 .col-md-12 {
     text-align: center; }
+
+.carusel {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
